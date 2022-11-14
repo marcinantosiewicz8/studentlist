@@ -1,0 +1,16 @@
+.form{
+    max-width: 100%;
+    width: auto;
+    margin: 30px;
+    border: 2px solid black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    justify-content: center;
+}
+
+.form__input{
+    max-width: 50%;
+    width: auto;
+}
+
